@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #3498db;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+section {
+    padding: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Adicione este bloco de estilo ao seu arquivo de estilos (styles.css) ou na tag <style> no head do seu HTML */
+
+.image-container {
+    display: flex;
+  }
+  
+  .image-item {
+    text-align: center;
+    margin: 0 20px; /* Espaçamento entre as imagens e o texto, ajuste conforme necessário */
+  }
+  
+  .image-item img {
+    max-width: 100%; /* Garante que a imagem ocupa toda a largura do contêiner */
+  }
+  
+  .image-item p {
+    font-size: 18px;
+    margin-top: 10px; /* Espaçamento entre a imagem e o texto, ajuste conforme necessário */
+  }
+  
+
+.icon-img {
+    width: 16px; /* Adjust the width as needed */
+    height: 16px; /* Adjust the height as needed */
+}
+
+.texto-grande {
+    font-size: 18px; /* Você pode ajustar o valor conforme necessário */
+    text-align: center;
+}
